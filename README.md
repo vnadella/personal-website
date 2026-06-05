@@ -1,10 +1,22 @@
-# Academic Personal Website
+# Venkat Nadella
 
-A simple static academic website prepared for GitHub Pages.
+Minimal personal website for `venkatnadella.com`.
+
+This is a personal proof-of-work site. Yukti lives separately at
+[`readyukti.com`](https://readyukti.com).
+
+## Structure
+
+- `index.html`
+- `style.css`
+- `CNAME`
+- `writing/index.html`
+- `research/index.html`
+- `teaching/index.html`
+- `contact/index.html`
+- `materials/index.html`
 
 ## Local Preview
-
-Run a local server from this directory:
 
 ```sh
 python3 -m http.server 8000
@@ -14,13 +26,11 @@ Then open `http://localhost:8000`.
 
 ## GitHub Pages
 
-1. Create a GitHub repository.
-2. Push these files to the repository root.
-3. In GitHub, go to Settings > Pages.
-4. Set the source to deploy from the `main` branch and the `/root` folder.
+The custom domain is set in `CNAME`:
 
-## Edit
+```txt
+venkatnadella.com
+```
 
-- Update profile details in each HTML file.
-- Replace `assets/img/profile-placeholder.svg` with a real headshot when ready.
-- Edit page content in `index.html`, `teaching.html`, `publications.html`, and `hobbies.html`.
+GitHub Pages still needs to be enabled in the repository settings once the repo
+is public or the account supports Pages for private repositories.
