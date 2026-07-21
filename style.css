@@ -297,3 +297,13 @@ th {
     padding: 18px;
   }
 }
+
+.sequence-list li + li {
+  margin-top: 12px;
+}
+
+.sequence-list span {
+  color: var(--muted);
+  display: block;
+  margin-top: 2px;
+}
