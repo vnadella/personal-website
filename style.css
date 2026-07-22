@@ -309,13 +309,18 @@ th {
 }
 
 .home-intro {
-  align-items: start;
-  display: grid;
-  gap: 26px;
-  grid-template-columns: minmax(0, 1fr) 112px;
+  display: block;
 }
 
-.home-intro p:last-child {
+.home-heading {
+  align-items: start;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: minmax(0, 1fr) 168px;
+  margin-bottom: 18px;
+}
+
+.home-heading .lede {
   margin-bottom: 0;
 }
 
@@ -327,16 +332,18 @@ th {
   display: block;
   justify-self: end;
   object-fit: cover;
-  width: 112px;
+  width: 168px;
 }
 
 @media (max-width: 680px) {
-  .home-intro {
-    grid-template-columns: 1fr;
+  .home-heading {
+    gap: 14px;
+    grid-template-columns: minmax(0, 1fr) 84px;
+    margin-bottom: 18px;
   }
 
   .home-portrait {
-    justify-self: start;
-    width: 96px;
+    justify-self: end;
+    width: 84px;
   }
 }
