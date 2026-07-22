@@ -307,3 +307,36 @@ th {
   display: block;
   margin-top: 2px;
 }
+
+.home-intro {
+  align-items: center;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) 148px;
+}
+
+.home-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.home-portrait {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  box-shadow: 0 10px 26px rgba(31, 35, 40, 0.12);
+  display: block;
+  justify-self: end;
+  object-fit: cover;
+  width: 148px;
+}
+
+@media (max-width: 680px) {
+  .home-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .home-portrait {
+    justify-self: start;
+    width: 118px;
+  }
+}
