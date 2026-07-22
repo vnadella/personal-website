@@ -330,6 +330,7 @@ th {
   border-radius: 50%;
   box-shadow: 0 10px 26px rgba(31, 35, 40, 0.12);
   display: block;
+  height: 168px;
   justify-self: end;
   object-fit: cover;
   width: 168px;
@@ -343,6 +344,7 @@ th {
   }
 
   .home-portrait {
+    height: 84px;
     justify-self: end;
     width: 84px;
   }
