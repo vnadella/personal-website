@@ -309,10 +309,10 @@ th {
 }
 
 .home-intro {
-  align-items: center;
+  align-items: start;
   display: grid;
-  gap: 28px;
-  grid-template-columns: minmax(0, 1fr) 148px;
+  gap: 26px;
+  grid-template-columns: minmax(0, 1fr) 112px;
 }
 
 .home-intro p:last-child {
@@ -327,7 +327,7 @@ th {
   display: block;
   justify-self: end;
   object-fit: cover;
-  width: 148px;
+  width: 112px;
 }
 
 @media (max-width: 680px) {
@@ -337,6 +337,6 @@ th {
 
   .home-portrait {
     justify-self: start;
-    width: 118px;
+    width: 96px;
   }
 }
